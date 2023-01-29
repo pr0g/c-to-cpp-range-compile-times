@@ -2,6 +2,12 @@
 
 This repo contains code samples from the [FromCtoCpptoRust](https://github.com/codereport/Content/tree/main/Talks/2022-12-YouTube/FromCtoCpptoRust) repo and [YouTube video](https://youtu.be/wGCWlI4A5z4) by Conor Hoekstra ([GitHub](https://github.com/codereport), [Twitter](https://twitter.com/code_report)).
 
+## Headlines
+
+The unfortunate reality is that the compilation time of the rangified code is an order of magnitude slower than that of the original C/C++ code (13x on tested hardware*). Make of this what you will but these effects when spread across an entire code base can bring a high cost in terms of developer productivity.
+
+\* _Numbers taken from M1 Macbook Pro using the Ninja build tool (generated with CMake)._
+
 ## Building
 
 For each example use:
