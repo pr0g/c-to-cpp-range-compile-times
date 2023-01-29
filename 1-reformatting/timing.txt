@@ -1,0 +1,9 @@
+Debug
+  cmake --build build  0.06s user 0.05s system 93% cpu 0.119 total
+  cmake --build build  0.06s user 0.05s system 92% cpu 0.114 total
+  cmake --build build  0.06s user 0.05s system 92% cpu 0.120 total
+
+Release
+  cmake --build build  0.06s user 0.05s system 89% cpu 0.128 total
+  cmake --build build  0.06s user 0.05s system 92% cpu 0.120 total
+  cmake --build build  0.06s user 0.05s system 92% cpu 0.123 total
