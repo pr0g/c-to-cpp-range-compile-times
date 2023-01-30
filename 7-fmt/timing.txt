@@ -1,3 +1,5 @@
+Hardware,Platform - M1 Macbook Pro, macOS
+
 Debug
   cmake --build build  0.80s user 0.12s system 98% cpu 0.932 total
   cmake --build build  0.81s user 0.12s system 98% cpu 0.938 total

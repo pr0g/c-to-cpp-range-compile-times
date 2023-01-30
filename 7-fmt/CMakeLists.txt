@@ -11,7 +11,7 @@ FetchContent_MakeAvailable(range-v3)
 
 find_package(fmt)
 
-project(7-fmt)
+project(7-fmt LANGUAGES CXX)
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PRIVATE main.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)

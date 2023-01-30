@@ -8,6 +8,8 @@ The unfortunate reality is that the compilation time of the rangified code is an
 
 \* _Numbers taken from M1 Macbook Pro using the Ninja build tool (generated with CMake)._
 
+> Tested `0-original` and `6-ternary-operator` on Windows (MSVC) with different hardware (Intel Core i7 2.8GHz) and performance difference was around 8x.
+
 ## Building
 
 For each example use:

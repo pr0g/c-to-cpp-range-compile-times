@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(4-std-accumulate)
+project(4-std-accumulate LANGUAGES CXX)
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PRIVATE main.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)

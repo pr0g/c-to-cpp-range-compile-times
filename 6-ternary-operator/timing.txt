@@ -1,3 +1,5 @@
+Hardware,Platform - M1 Macbook Pro, macOS
+
 Debug
   cmake --build build  0.78s user 0.13s system 96% cpu 0.936 total
   cmake --build build  0.84s user 0.13s system 98% cpu 0.981 total
@@ -7,3 +9,17 @@ Release
   cmake --build build  0.78s user 0.12s system 98% cpu 0.914 total
   cmake --build build  0.78s user 0.12s system 98% cpu 0.905 total
   cmake --build build  0.82s user 0.12s system 98% cpu 0.954 total
+
+Hardware,Platform - Intel Core i7-1165G7 (2.8GHz), Windows
+
+Debug
+  TotalSeconds      : 2.0237712
+  TotalSeconds      : 2.1952727
+  TotalSeconds      : 2.1366988
+
+Release
+  TotalSeconds      : 1.9067111
+  TotalSeconds      : 1.8088299
+  TotalSeconds      : 1.7729598
+
+                      1.82950 (avg)

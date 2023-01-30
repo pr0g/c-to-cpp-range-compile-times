@@ -9,7 +9,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(range-v3)
 
-project(5-ranges-accumulate)
+project(5-ranges-accumulate LANGUAGES CXX)
 add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PRIVATE main.cpp)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
